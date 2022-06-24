@@ -37,6 +37,10 @@ body {
 }
 
 .section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section include {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -100,6 +104,21 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 450 px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 738 px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170 px;
+  }
 }
 
 .logo {
